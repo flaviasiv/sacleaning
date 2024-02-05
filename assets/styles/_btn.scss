@@ -1,0 +1,19 @@
+.btn {
+    background: none;
+    border: none;
+    padding: 0.8em 2em;
+    border-radius: 3px;
+    text-decoration: none;
+    display: inline-block;
+    &:disabled{
+        background-color: #dcdcdc;
+    }
+    &--action{
+        background-color: #0daf4b;
+        color: #FFF;
+    }
+    &--rounded{
+        border-radius: 20px;
+
+    }
+}
