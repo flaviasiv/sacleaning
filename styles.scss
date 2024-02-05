@@ -1,0 +1,44 @@
+@import 'assets/styles/normalize';
+@import 'assets/styles/btn';
+@import 'assets/styles/helpers';
+@import 'assets/styles/fonts';
+@import 'assets/styles/card';
+
+* {
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+}
+body{
+  background: #EFF0F1;
+}
+h2{
+  font-size: 34px;
+  color: #1F3649;
+}
+.btn{
+  background: #0DAF4B;
+  color: #FFF;
+  font-weight: 700;
+  border-radius: 40px;
+  padding: 1em 3em;
+  font-size: 14px;
+  margin: 0;
+  text-transform: uppercase;
+  outline: none;
+}
+a{
+  color: #FFF;
+  text-decoration: none;
+  outline: none;
+}
+.section-wrapper{
+    max-width: 1024px;
+    width: 90%;
+    margin: 5em auto 10em auto;
+    text-align: center;
+}
+
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
+  background: #0daf4b;
+}
